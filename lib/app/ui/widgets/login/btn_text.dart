@@ -17,7 +17,7 @@ class textbtn extends StatelessWidget {
       onPressed: onPressed,
       child: Text(
         title,
-        style: MytextStyle.f20greybold.copyWith(color: AppColor.primaryColor),
+        style: MytextStyle.f18grey.copyWith(color: AppColor.primaryColor),
       ),
     );
   }
