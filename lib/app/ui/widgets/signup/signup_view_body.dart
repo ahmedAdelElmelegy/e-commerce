@@ -1,3 +1,4 @@
+import 'package:e_commerce_with_firebase/app/ui/pages/login/login_view.dart';
 import 'package:e_commerce_with_firebase/app/ui/widgets/login/Cusotm_outline_button.dart';
 import 'package:e_commerce_with_firebase/app/ui/widgets/login/Or_widget.dart';
 import 'package:e_commerce_with_firebase/app/ui/widgets/login/btn_text.dart';
@@ -7,6 +8,7 @@ import 'package:e_commerce_with_firebase/app/utils/theming/myText_style.dart';
 import 'package:e_commerce_with_firebase/app/utils/widgets/custom_button.dart';
 import 'package:e_commerce_with_firebase/app/utils/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class SignupViewBody extends StatelessWidget {
   const SignupViewBody({super.key});
@@ -32,7 +34,7 @@ class SignupViewBody extends StatelessWidget {
             verticalSpacing(.05, context),
             const CustomTextField(
               hintText: 'Full Name',
-              prefexIcon: Icons.email,
+              prefexIcon: Icons.person,
             ),
             verticalSpacing(.02, context),
             const CustomTextField(
@@ -54,7 +56,7 @@ class SignupViewBody extends StatelessWidget {
             verticalSpacing(.05, context),
             CustomButton(
               onPressed: () {},
-              title: 'Sign in',
+              title: 'Sign up',
             ),
             verticalSpacing(.02, context),
             const OrWidget(),
@@ -62,10 +64,12 @@ class SignupViewBody extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Text(' Don’t have a account?'),
+                const Text('have a account?'),
                 textbtn(
                   title: 'Login',
-                  onPressed: () {},
+                  onPressed: () {
+                    Get.to(const Login());
+                  },
                 )
               ],
             )

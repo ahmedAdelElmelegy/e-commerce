@@ -15,6 +15,7 @@ class CustomOutLineButton extends StatelessWidget {
 
     return OutlinedButton(
         style: OutlinedButton.styleFrom(
+          side: const BorderSide(width: .5, color: Colors.grey),
           backgroundColor: Colors.white,
           shape: ContinuousRectangleBorder(
             borderRadius: BorderRadius.circular(8),
