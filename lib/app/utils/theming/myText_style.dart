@@ -18,6 +18,15 @@ abstract class MytextStyle {
     color: Color(0xff9098B1),
     fontSize: 18,
   );
+  static TextStyle f18white = const TextStyle(
+    color: Colors.white,
+    fontSize: 18,
+  );
+  static TextStyle f18redbold = const TextStyle(
+    color: Colors.red,
+    fontWeight: FontWeight.w600,
+    fontSize: 18,
+  );
   static TextStyle f18whitebold = const TextStyle(
     color: Colors.white,
     fontWeight: FontWeight.bold,
@@ -26,7 +35,12 @@ abstract class MytextStyle {
   static TextStyle f20greybold = const TextStyle(
       color: Colors.grey, fontSize: 20, fontWeight: FontWeight.w900);
   static TextStyle f18Primarybold = const TextStyle(
-      color: AppColor.primaryColor, fontSize: 18, fontWeight: FontWeight.w900);
+    color: AppColor.primaryColor,
+    fontSize: 18,
+    fontWeight: FontWeight.w900,
+  );
+  static TextStyle f18blackbold = const TextStyle(
+      color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold);
   static TextStyle f30whitebold = const TextStyle(
       color: Colors.white, fontSize: 30, fontWeight: FontWeight.w900);
   static TextStyle f20blackbold = const TextStyle(

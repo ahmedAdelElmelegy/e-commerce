@@ -20,7 +20,7 @@ class CategoyItem extends StatelessWidget {
               child: Image.asset(Assets.groupcat),
             ),
           ),
-          verticalSpacing(.01, context),
+          verticalSpacing(.005, context),
           Text(
             'title',
             style: MytextStyle.f18grey,

@@ -14,7 +14,7 @@ class CategoryListView extends StatelessWidget {
     return SizedBox(
         height: size.height * .15,
         child: ListView.builder(
-          itemBuilder: (context, index) => CategoyItem(),
+          itemBuilder: (context, index) =>const CategoyItem(),
           scrollDirection: Axis.horizontal,
           itemCount: 5,
         ));

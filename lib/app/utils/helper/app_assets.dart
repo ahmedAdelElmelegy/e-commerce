@@ -11,4 +11,5 @@ abstract class Assets {
   static const String womancat = 'assets/images/category/woman bag.png';
   static const String product = 'assets/images/product/image Product (1).png';
   static const String banner = 'assets/images/product/Promotion Image.png';
+  static const String smbanner = 'assets/images/product/image 51.png';
 }
