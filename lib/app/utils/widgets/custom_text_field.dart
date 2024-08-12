@@ -5,11 +5,13 @@ class CustomTextField extends StatelessWidget {
   final String hintText;
   final IconData? prefexIcon;
   final IconData? sufixIcon;
+  final Color? iconColor;
   const CustomTextField({
     super.key,
     required this.hintText,
     this.prefexIcon,
     this.sufixIcon,
+    this.iconColor,
   });
 
   @override
@@ -20,6 +22,7 @@ class CustomTextField extends StatelessWidget {
             border: outBorder(const Color(0xff9098B1)),
             enabledBorder: outBorder(const Color(0xff9098B1)),
             focusedBorder: outBorder(AppColor.primaryColor),
+            prefixIconColor: iconColor,
             prefixIcon: Icon(prefexIcon),
             suffixIcon: Icon(sufixIcon)));
   }

@@ -14,6 +14,7 @@ class MainView extends StatelessWidget {
           currentIndex: controller.currentIndex.value,
           onTap: (value) => controller.changeIndex(value),
         ),
+        body: controller.pages[controller.currentIndex.value],
       );
     });
   }
