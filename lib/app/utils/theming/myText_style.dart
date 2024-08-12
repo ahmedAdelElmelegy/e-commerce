@@ -24,4 +24,6 @@ abstract class MytextStyle {
   );
   static TextStyle f20greybold = const TextStyle(
       color: Colors.grey, fontSize: 20, fontWeight: FontWeight.w900);
+  static TextStyle f30whitebold = const TextStyle(
+      color: Colors.white, fontSize: 30, fontWeight: FontWeight.w900);
 }
