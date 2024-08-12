@@ -1,4 +1,3 @@
-import 'package:e_commerce_with_firebase/app/ui/pages/Splash/splash_view.dart';
 import 'package:e_commerce_with_firebase/app/ui/pages/main/main_view.dart';
 import 'package:e_commerce_with_firebase/app/utils/helper/app_color.dart';
 import 'package:flutter/material.dart';
