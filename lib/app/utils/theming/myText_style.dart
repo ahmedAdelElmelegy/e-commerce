@@ -39,6 +39,11 @@ abstract class MytextStyle {
     fontSize: 18,
     fontWeight: FontWeight.w900,
   );
+  static TextStyle f20Primarybold = const TextStyle(
+    color: AppColor.primaryColor,
+    fontSize: 20,
+    fontWeight: FontWeight.w900,
+  );
   static TextStyle f18blackbold = const TextStyle(
       color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold);
   static TextStyle f30whitebold = const TextStyle(

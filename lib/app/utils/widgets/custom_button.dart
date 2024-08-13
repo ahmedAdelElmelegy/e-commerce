@@ -13,7 +13,7 @@ class CustomButton extends StatelessWidget {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
           shape: ContinuousRectangleBorder(
-            borderRadius: BorderRadius.circular(5),
+            borderRadius: BorderRadius.circular(10),
           ),
           minimumSize: Size(double.infinity, size.height * .06),
           backgroundColor: AppColor.primaryColor),

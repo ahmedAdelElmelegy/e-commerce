@@ -16,7 +16,7 @@ class CategoyItem extends StatelessWidget {
             style: OutlinedButton.styleFrom(side: const BorderSide(width: .1)),
             onPressed: () {},
             child: Padding(
-              padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 5),
+              padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 3),
               child: Image.asset(Assets.groupcat),
             ),
           ),

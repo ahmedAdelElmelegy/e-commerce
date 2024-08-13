@@ -16,14 +16,14 @@ class MainController extends GetxController {
         icon: Icon(Icons.local_offer_outlined), label: 'Offer'),
     BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Account'),
   ];
-  List<Widget> pages = const[
+  List<Widget> pages = const [
     HomeView(),
     ExploreView(),
     CartView(),
     OfferView(),
     AccountView()
   ];
-  var currentIndex = 0.obs;
+  var currentIndex = 2.obs;
   void changeIndex(int index) {
     currentIndex.value = index;
   }
