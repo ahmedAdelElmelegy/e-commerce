@@ -19,7 +19,7 @@ class OfferViewBody extends StatelessWidget {
               children: [
                 const OfferTitle(),
                 verticalSpacing(.02, context),
-                BannerScrooler(),
+                Bannerscrooler(),
                 verticalSpacing(.02, context),
               ],
             ),

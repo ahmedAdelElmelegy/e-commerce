@@ -23,7 +23,7 @@ class MainController extends GetxController {
     OfferView(),
     AccountView()
   ];
-  var currentIndex = 2.obs;
+  var currentIndex = 0.obs;
   void changeIndex(int index) {
     currentIndex.value = index;
   }

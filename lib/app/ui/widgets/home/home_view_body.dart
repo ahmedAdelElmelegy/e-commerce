@@ -24,7 +24,7 @@ class HomeViewBody extends StatelessWidget {
                 verticalSpacing(.09, context),
                 searchBar(size),
                 verticalSpacing(.02, context),
-                BannerScrooler(),
+                Bannerscrooler(),
                 verticalSpacing(.01, context),
                 const FlashSaleTitle(
                   title: 'Category',
