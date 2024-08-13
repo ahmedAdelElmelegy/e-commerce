@@ -46,12 +46,12 @@ class _BannerscroolerState extends State<Bannerscrooler> {
             },
           ),
         ),
-        SizedBox(height: 10), // Space between image and circles
+      const  SizedBox(height: 10), 
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: List.generate(banners.length, (index) {
             return Container(
-              margin: EdgeInsets.symmetric(horizontal: 4.0),
+              margin:const EdgeInsets.symmetric(horizontal: 4.0),
               width: 8.0,
               height: 8.0,
               decoration: BoxDecoration(

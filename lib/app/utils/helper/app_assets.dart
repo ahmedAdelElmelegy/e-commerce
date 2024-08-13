@@ -12,4 +12,19 @@ abstract class Assets {
   static const String product = 'assets/images/product/image Product (1).png';
   static const String banner = 'assets/images/product/Promotion Image.png';
   static const String smbanner = 'assets/images/product/image 51.png';
+
+// account
+  static const String creaditcard =
+      'assets/images/account_icon/Credit Card.png';
+  static const String order = 'assets/images/account_icon/Group.png';
+  static const String address = 'assets/images/account_icon/Location.png';
+  static const String profile = 'assets/images/account_icon/User.png';
+
+// profile
+  static const String birthday = 'assets/images/profile/birthday.png';
+  static const String changePassword =
+      'assets/images/profile/change_password.png';
+  static const String email = 'assets/images/profile/email.png';
+  static const String gender = 'assets/images/profile/gender.png';
+  static const String phone = 'assets/images/profile/Phone.png';
 }

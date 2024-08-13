@@ -13,7 +13,10 @@ abstract class MytextStyle {
           color: Colors.grey.withOpacity(0.8), // Shadow color
         ),
       ]);
-
+  static TextStyle f14grey = const TextStyle(
+    color: Color(0xff9098B1),
+    fontSize: 14,
+  );
   static TextStyle f18grey = const TextStyle(
     color: Color(0xff9098B1),
     fontSize: 18,
